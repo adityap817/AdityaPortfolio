@@ -329,8 +329,14 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap:20px;
   flex-direction: column;
+}
+
+.break-row {
+  flex-basis: 100%; 
 }
 
 .article-container {
